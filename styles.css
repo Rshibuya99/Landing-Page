@@ -142,3 +142,28 @@ button {
 .description {
     text-align: center;
 }
+
+.section-3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.quote {
+    text-align: left;
+    font-size: 28px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+    font-family: 'Muli';
+}
+
+.quoter {
+    text-align: right;
+    font-weight: 700;
+    color: #1F2937;
+    padding-right: 20px;
+}
