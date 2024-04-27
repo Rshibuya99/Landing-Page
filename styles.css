@@ -167,3 +167,37 @@ button {
     color: #1F2937;
     padding-right: 20px;
 }
+
+.section-4 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.action-container {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+
+.action-container button {
+    border: 2px solid white;
+    font-weight: 700;
+}
+
+.action-call {
+    font-weight: 700;
+    font-size: 26px;
+    color:#F9FAF8
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    color: #F9FAF8;
+}
