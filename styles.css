@@ -92,7 +92,7 @@ a.logo {
 
 img.hins{
     min-width: 500px;
-    flex-shrink: 0 0 500px;
+    flex: 0 0 500px;
 }
 
 button {
@@ -134,9 +134,14 @@ button {
 
 .icon {
     aspect-ratio: 1 / 1;
+    flex: 0 0 140px;
     width: 140px;
     border: solid 4px #3882F6;
     border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .description {
@@ -200,4 +205,19 @@ footer {
     align-items: center;
     padding: 22px;
     color: #F9FAF8;
+}
+
+.head {
+    /* height: 100%;
+    width: 100%;
+    object-fit: cover; */
+
+    /* width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto; */
+
+    width: 140px;
+    height: auto;
+    object-fit: cover;
 }
